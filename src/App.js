@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
+import mrFrancis from './img/mrfrancis.png'
+import lcca from './img/IMG_20260625_232751_998.png'
+
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
@@ -93,7 +96,7 @@ function App() {
       <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#hero" className="text-lg font-semibold text-white">
-            Fortune Chinaka
+            Idakwo Vincent
           </a>
           <nav className="hidden items-center gap-6 text-sm text-slate-300 md:flex">
             <a href="#hero" className="transition hover:text-white">
@@ -119,13 +122,13 @@ function App() {
         <section id="hero" className="scroll-mt-24 bg-slate-950 py-20">
           <div className="mx-auto max-w-6xl px-6 text-center md:text-left">
             <div className="inline-flex rounded-full border border-slate-700 bg-slate-900/70 px-4 py-2 text-sm text-sky-300">
-              Full-Stack Developer | React JS | Python
+              Fronteend Developer | React JS 
             </div>
             <h1 className="mt-8 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
               Crafting modern digital experiences with clean design and reliable development.
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg md:mx-0">
-              I build polished websites and apps using modern frontend tooling, strong
+              I build polished websites and web apps using modern frontend tooling, strong
               design systems, and clear communication. Explore my portfolio to see projects,
               skills, and ways to get in touch.
             </p>
@@ -157,15 +160,12 @@ function App() {
                   A thoughtful developer with a focus on usability and performance.
                 </h2>
                 <p className="mt-6 text-base leading-8 text-slate-300">
-                  I'm a Full-Stack developer, with keen interest on the backend. I have a master's degree in Physics and Astronomy from the University of Nigeria, Nsukka. My drive for software development is rising to the climax after completing the ALX-T Full-Stack Nanodegree with Udacity, and completed four (4) backend projects, including writing test scripts and deploying to AWS with Kubernetes. Projects that received excellent remarks from the reviewers. I am good at writing APIs with python, Flask and relational databases (PostgreSQL). https://github.com/Chinaka-Fortune?tab=repositories 
+                  I'm a Frontend developer, with keen interest on the frontend. My drive for software development is rising to the climax after completing the Frontend with Ziffcode, and completed four (4) frontend projects Projects that received excellent remarks from the reviewers.
 
                 </p>
+                
                 <p className="mt-4 text-base leading-8 text-slate-300">
-                  am a fast learner and work well with a team. I have headed the physics department of Doyen British School of Preliminary Studies, where we planned, prepared and taught A-level students of the institution for their Cambridge A-level examination. It was an excellent outcome, without a failure recorded in the department for the period.
-
-                </p>
-                <p className="mt-4 text-base leading-8 text-slate-300">
-                  My approach combines strong frontend and Backend engineering with a professional eye for
+                  My approach combines strong frontend and  with a professional eye for
                   detail, ensuring every project is built to perform well across devices and
                   screen sizes.
                 </p>
@@ -175,7 +175,7 @@ function App() {
                 <ul className="mt-6 space-y-4 text-slate-300">
                   <li className="flex gap-3">
                     <span className="mt-1 inline-flex h-2.5 w-2.5 rounded-full bg-sky-400"></span>
-                    I'd love to combine my qualifications, skills and drive for backend development in building educational, financial and business products.
+                    I'd love to combine my qualifications, skills and drive for frontend development in building educational, financial and business products.
 
                   </li>
                   <li className="flex gap-3">
@@ -210,7 +210,7 @@ function App() {
             </div>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {['Python', 'Flask','React','JavaScript','TypeScript','Bootstrap','Tailwind CSS', 'Responsive Design', 'Accessibility', 'API Integration', 'Git & CI/CD', 'Construct (Game Engine)', 'SQL', 'Amazon Web Services (AWS)', 'Autodesk Tinkercad', 'Robot Programming', 'Arduino IDE', 'Construct (Game Engine)', 'Time Management', 'Project Management'].map((skill) => (
+              {['React','JavaScript','Bootstrap','Tailwind CSS', 'Responsive Design', 'Accessibility', 'API Integration', 'Git & CI/CD'].map((skill) => (
                 <div key={skill} className="rounded-3xl border border-slate-800 bg-slate-900/80 px-6 py-5 text-slate-200 shadow-sm shadow-slate-950/20">
                   {skill}
                 </div>
@@ -240,8 +240,8 @@ function App() {
                 <a href="https://example.com/marketing-dashboard" target="_blank" rel="noreferrer">
                   <div className="h-44 overflow-hidden bg-slate-800">
                     <img
-                      src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80"
-                      alt="Marketing Dashboard preview"
+                      src={mrFrancis}
+                      alt="image of mr francis website"
                       className="h-full w-full object-cover transition duration-300 hover:scale-105"
                     />
                   </div>
@@ -266,8 +266,8 @@ function App() {
                 <a href="https://example.com/agency-landing" target="_blank" rel="noreferrer">
                   <div className="h-44 overflow-hidden bg-slate-800">
                     <img
-                      src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80"
-                      alt="Agency Landing Page preview"
+                      src={lcca}
+                      alt="LLCA Landing Page preview"
                       className="h-full w-full object-cover transition duration-300 hover:scale-105"
                     />
                   </div>
@@ -408,7 +408,7 @@ function App() {
 
       <div className="fixed right-4 bottom-8 z-50 flex flex-col gap-3 rounded-full bg-slate-950/80 p-2 shadow-2xl shadow-slate-950/40 backdrop-blur-lg">
         <a
-          href="https://wa.me/+2348032682945"
+href="https://wa.me/+2349150841782++"
           target="_blank"
           rel="noreferrer"
           aria-label="WhatsApp"
