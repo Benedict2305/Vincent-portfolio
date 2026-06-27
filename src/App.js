@@ -237,81 +237,75 @@ function App() {
 
             <div className="mt-10 grid gap-6 lg:grid-cols-3">
               <article className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/90 shadow-xl shadow-slate-950/40 transition hover:-translate-y-1 hover:shadow-sky-500/20">
-                <a href="https://example.com/marketing-dashboard" target="_blank" rel="noreferrer">
-                  <div className="h-44 overflow-hidden bg-slate-800">
-                    <img
-                      src={mrFrancis}
-                      alt=" mr francis website"
-                      className="h-full w-full object-cover transition duration-300 hover:scale-105"
-                    />
+                <div className="h-44 overflow-hidden bg-slate-800">
+                  <img
+                    src={mrFrancis}
+                    alt="Mr Francis website preview"
+                    className="h-full w-full object-cover transition duration-300 hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Brand Site</span>
+                    <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">React</span>
                   </div>
-                  <div className="p-6">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Design System</span>
-                      <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">React</span>
-                    </div>
-                    <h3 className="mt-6 text-2xl font-semibold text-white">Marketing Dashboard</h3>
-                    <p className="mt-4 text-sm leading-7 text-slate-300">
-                      Delivered a responsive dashboard interface with reusable components, metrics panels, and polished data visualizations.
-                    </p>
-                    <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
-                      <span className="rounded-full bg-slate-800 px-3 py-1">UI</span>
-                      <span className="rounded-full bg-slate-800 px-3 py-1">Analytics</span>
-                    </div>
+                  <h3 className="mt-6 text-2xl font-semibold text-white">Mr Francis Website</h3>
+                  <p className="mt-4 text-sm leading-7 text-slate-300">
+                    A polished business website with a clear structure, modern visual hierarchy, and content sections built to present a professional brand.
+                  </p>
+                  <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
+                    <span className="rounded-full bg-slate-800 px-3 py-1">Branding</span>
+                    <span className="rounded-full bg-slate-800 px-3 py-1">UI</span>
                   </div>
-                </a>
+                </div>
               </article>
 
               <article className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/90 shadow-xl shadow-slate-950/40 transition hover:-translate-y-1 hover:shadow-sky-500/20">
-                <a href="https://example.com/agency-landing" target="_blank" rel="noreferrer">
-                  <div className="h-44 overflow-hidden bg-slate-800">
-                    <img
-                      src={lcca}
-                      alt="LLCA Landing Page preview"
-                      className="h-full w-full object-cover transition duration-300 hover:scale-105"
-                    />
+                <div className="h-44 overflow-hidden bg-slate-800">
+                  <img
+                    src={lcca}
+                    alt="LCCA landing page preview"
+                    className="h-full w-full object-cover transition duration-300 hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Landing Page</span>
+                    <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">Tailwind</span>
                   </div>
-                  <div className="p-6">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Interactive</span>
-                      <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">Tailwind</span>
-                    </div>
-                    <h3 className="mt-6 text-2xl font-semibold text-white">Agency Landing Page</h3>
-                    <p className="mt-4 text-sm leading-7 text-slate-300">
-                      Built a high-performance landing experience with clean animations, custom layouts, and a strong conversion-focused structure.
-                    </p>
-                    <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
-                      <span className="rounded-full bg-slate-800 px-3 py-1">Landing</span>
-                      <span className="rounded-full bg-slate-800 px-3 py-1">UX</span>
-                    </div>
+                  <h3 className="mt-6 text-2xl font-semibold text-white">LCCA Landing Experience</h3>
+                  <p className="mt-4 text-sm leading-7 text-slate-300">
+                    A welcoming landing page crafted with clear messaging, thoughtful spacing, and a strong visual flow for easy navigation.
+                  </p>
+                  <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
+                    <span className="rounded-full bg-slate-800 px-3 py-1">Landing</span>
+                    <span className="rounded-full bg-slate-800 px-3 py-1">UX</span>
                   </div>
-                </a>
+                </div>
               </article>
 
               <article className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/90 shadow-xl shadow-slate-950/40 transition hover:-translate-y-1 hover:shadow-sky-500/20">
-                <a href="https://example.com/client-portal" target="_blank" rel="noreferrer">
-                  <div className="h-44 overflow-hidden bg-slate-800">
-                    <img
-                      src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
-                      alt="Client Portal preview"
-                      className="h-full w-full object-cover transition duration-300 hover:scale-105"
-                    />
+                <div className="h-44 overflow-hidden bg-slate-800">
+                  <img
+                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+                    alt="Portfolio showcase preview"
+                    className="h-full w-full object-cover transition duration-300 hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Showcase</span>
+                    <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">Design</span>
                   </div>
-                  <div className="p-6">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs uppercase tracking-[0.3em] text-sky-400">Web App</span>
-                      <span className="rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-400">API</span>
-                    </div>
-                    <h3 className="mt-6 text-2xl font-semibold text-white">Client Portal</h3>
-                    <p className="mt-4 text-sm leading-7 text-slate-300">
-                      Developed a secure client portal with account management tools, responsive workflows, and integrated third-party services.
-                    </p>
-                    <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
-                      <span className="rounded-full bg-slate-800 px-3 py-1">Workflow</span>
-                      <span className="rounded-full bg-slate-800 px-3 py-1">Integration</span>
-                    </div>
+                  <h3 className="mt-6 text-2xl font-semibold text-white">Portfolio Showcase</h3>
+                  <p className="mt-4 text-sm leading-7 text-slate-300">
+                    A modern project presentation layout focused on visual storytelling, clean cards, and a smooth browsing experience.
+                  </p>
+                  <div className="mt-6 flex flex-wrap gap-2 text-xs text-slate-400">
+                    <span className="rounded-full bg-slate-800 px-3 py-1">Presentation</span>
+                    <span className="rounded-full bg-slate-800 px-3 py-1">Layout</span>
                   </div>
-                </a>
+                </div>
               </article>
             </div>
           </div>
