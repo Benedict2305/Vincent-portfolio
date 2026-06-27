@@ -241,7 +241,7 @@ function App() {
                   <div className="h-44 overflow-hidden bg-slate-800">
                     <img
                       src={mrFrancis}
-                      alt="image of mr francis website"
+                      alt=" mr francis website"
                       className="h-full w-full object-cover transition duration-300 hover:scale-105"
                     />
                   </div>
